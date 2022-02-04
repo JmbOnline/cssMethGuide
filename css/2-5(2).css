@@ -1,0 +1,57 @@
+/* 베이스
+  ======================================== */
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* 레이아웃
+  ======================================== */
+  .ly_cont {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+/* 모듈
+  ======================================== */
+.bl_module {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.bl_module .img-wrapper {
+    flex: 1 1 25%;
+    margin-right: 3.33333%;
+}
+.bl_module .img-wrapper img {
+    width: 100%;
+    vertical-align: top;
+}
+.bl_module .body {
+    flex: 1 1 68.33333%;
+}
+.bl_module .title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bl_module .sub-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #555;
+}
+.bl_module .body > span {
+    font-size: 14px;
+    color: #555;
+}
